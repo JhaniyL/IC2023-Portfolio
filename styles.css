@@ -3,10 +3,14 @@ body {
     margin: 0;
     padding:0;
     overflow: hidden;
+    cursor: url("pixelated-cursor-arrow-hi.png"), default;
+
    
 }
 
+
 .buttons{
+    
     position: fixed;
     bottom: 20px; 
     width: 100%;
@@ -20,10 +24,10 @@ body {
 button{
     background-color: rgb(245, 210, 10);
     color: rgb(255, 252, 240);
-    height: 80px;
+    height: 50px;
     width: 500px;
     font-family: "press Start 2P";
-    font-size: 40px;
+    font-size: 30px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -32,25 +36,45 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
- .startPage{
+
+.startPage{
 
     height: 100vh;
-   background-size: cover;
-    background-image:url("Bg8.jpg");
+    background-size: cover;
+    background-image:url("Images/Bg8.jpg");
     background-repeat: no-repeat;
-   
-
- }
+    
+    
+}
  
- .mainPage{
+
+.mainPage{
     
     height: 100vh;
     background-size: cover;
-    background-image:url("Mainbg.jpg");
+    background-image:url("Images/Mainbg2.jpg");
     background-repeat: no-repeat;
- }
+}
+
+.Comp {
+ position: absolute;
+ position: absolute;
+ top: 15%;
+  left: 48%;
+ transform: translate(-50%, -50%);
+ height: 20px; 
+ width: 30px; 
+}
+.Phone{
+    position: absolute;
+    top: 50%; 
+     right: 23%;
+    transform: translate(-50%, -50%);
+    height: 20px; 
+    width: 30px;
+  }
 
 p {
     color:  #FFD148;
@@ -65,6 +89,7 @@ p {
     align-items: flex-end;
     font-family: "press Start 2P";
     font-size: 15px;
+  
     position: fixed;
     bottom: 0;
     left: 0;
@@ -78,7 +103,7 @@ p {
     width: 0;
     text-align: right;
     animation: typing 4s forwards;
-    animation-timing-function: steps(30, end);
+    animation-timing-function: steps(40, end);
     animation-fill-mode: forwards;
   }
   
@@ -92,6 +117,7 @@ p {
   }
   
   .textBox {
+
     height: 100px;
     display: inline-block;
     width: auto;
@@ -105,9 +131,8 @@ p {
     position: absolute;
     bottom: 10px;
     right: calc(100% + 20px);
-    height: 300px;
-    width: 300px;
-    z-index: 1;
+    height: 315px;
+    width: 100px;
   }
 
   .planet {
@@ -120,11 +145,25 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 9999;
+   
 }
 
 .planet img {
     height: 100%; 
-    width: auto;
+    width: 90%;
+}
+/*
+.slide-bottom {
+	-webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both ;
 }
 
+
+
+  @-webkit-keyframes slide-bottom{0%{-webkit-transform:translateY(0);transform:translateY(0)}100%{-webkit-transform:translateY(100px);transform:translateY(100px)}} */
+ @keyframes slide-bottom {
+    0% {transform:translateY(0)}
+    100% {transform:translateY(100px)}
+    0% {transform:translateY(0)}
+}
+/*

@@ -1,0 +1,162 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("Images/Fdbg (2).jpg");
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Me {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: #e9f1f1;
+    width: 200px; 
+    height: 200px; 
+    border: 5px solid #270745; 
+    border-radius: 50%;
+    margin-top: -245px;
+  }
+  
+  .Buttons {
+    font-family: "press Start 2P";
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -335px;
+  }
+  
+  .Buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition-duration: 0.3s;
+    transition-property: box-shadow, transform;
+  }
+  
+  .Buttons a:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+  }
+  .btn {
+    text-decoration: none;
+    background-color: #d1b267;
+    color: #270745;
+    padding: 10px 15px;
+    border-radius: 4px;
+    display: inline-block;
+    border: 2px solid #270745; 
+    margin: 5px;
+    height: 30px;
+    width: 190px;
+    
+  }
+  .email-icon {
+    width: 60px; 
+    height: 60px;
+    vertical-align: middle;
+    margin-right: 200px; 
+     position: relative;
+    top: 3px; 
+     left: 8%;
+    
+  }
+  .github-icon{
+    width: 60px; 
+    height: 60px;
+    vertical-align: middle;
+    margin-right: 200px; 
+    position: relative;
+      top: 3px; 
+     left: 8%;
+  }
+  .linkedIn-icon{
+    width: 60px; 
+    height: 60px;
+    vertical-align: middle;
+    margin-right: 200px; 
+    position: relative;
+      top: 3px; 
+     left: 8%;
+  }
+  .backbtn {
+    position: fixed;
+    top: 70px;
+    right: 725px;
+    width: 50px;
+    height: 50px;
+    /* Add any other styling as needed */
+  }
+  p {
+      color:  #FFD148;
+      position: relative;
+      height: auto;
+      font-family: "Press Start 2P";
+  }
+  
+  .Textbox-container{
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      font-family: "press Start 2P";
+      font-size: 15px;
+    
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      text-align: center;
+    }
+  .typeWriter {
+      overflow: hidden;
+      white-space: nowrap;
+      margin: 0 auto;
+      width: 0;
+      text-align: right;
+      animation: typing 4s forwards;
+      animation-timing-function: steps(40, end);
+      animation-fill-mode: forwards;
+    }
+    
+   @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%; /* Adjust the width as desired */
+  }
+   }
+  
+  .textBox {
+    height: 80px;
+    display: inline-block;
+    width: 800px; /* Adjust the width as desired */
+    position: relative;
+    border: 6px solid #FFD148;
+    background-color: #270745;
+  }

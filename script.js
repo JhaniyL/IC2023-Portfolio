@@ -1,10 +1,11 @@
-let startButton = document.querySelector(".startButton");
+console.log("Connected");
+let start = document.querySelector(".startButton");
 let exitButton = document.querySelector(".exitButton");
 let mainPage = document.querySelector(".mainPage");
 let startPage = document.querySelector(".startPage")
 
-startButton.onclick = function() {
-
+start.onclick = function() {
+    console.log("working");
     startPage.style.display = "none";
     mainPage.style.display = "block";
   };
