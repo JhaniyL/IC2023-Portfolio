@@ -1,1 +1,60 @@
-<link rel="stylesheet" href="Monitor.css">
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>mainPage</title>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="Comp.css">
+</head>
+
+<body>
+  <div class="buttons">
+    <button id="Folder1" onclick="togglePopUp('PopUp1')">
+      <img src="Images/Folder2.png" alt="folder1" class="folder1">
+    </button>
+    <br>
+    <button id="Folder2" onclick="togglePopUp('PopUp2')">
+      <img src="Images/Folder1.png" alt="folder2" class="folder1">
+    </button>
+  </div>
+
+  <!-- Folder1 -->
+  
+  <div id="PopUp1" class="hidden">
+    <img src="Images/Filescrn2.png">
+    <button id="X" onclick="togglePopUp('PopUp1')">
+        <img src="Images\Xbtn.png" class="movebtn">
+    </button>
+    <a target="blank"
+    href="https://jhaniya-littunit2-project--jhaniyalitt.repl.co/">
+    <img src="Images/File png(1).png" class="File" alt="Image"></a>
+    
+    <a target="blank"
+    href="https://unit-5-project-starter-code.jhaniyalitt.repl.co/">
+    <img src="Images/File png(1).png" class="File2" alt="Image"></a>
+    <a target="blank"
+    href="https://jhaniya-litt.jhaniyalitt.repl.co/index.html">
+    <img src="Images/File png(1).png" class="File3" alt="Image"></a>
+</div>
+
+
+  <!-- Folder2 -->
+  <div id="PopUp2" class="hidden">
+    <img src="Images/Filescrn2.png">
+    <button id="X2" onclick="togglePopUp('PopUp2')">
+      
+    </button>
+    
+    <img src="Images/File png(1).png" class="File">
+    
+  </div>
+
+  <div class="black-bar"></div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

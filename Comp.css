@@ -1,0 +1,113 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #3C5D83;
+    overflow-y: hidden;
+  }
+  
+  .buttons,
+  #Folder1,
+  #Folder2 {
+    background-color: transparent;
+    border-color: transparent;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .folder1,
+  .folder2 {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  .movebtn{
+    top: 2px;
+    left: 200px;
+  }
+  #X,
+  #X2 {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  #X {
+    background-image: url("Images/Xbtn.png");
+    background-repeat: no-repeat;
+    top: -40px;
+    left: 100px;
+    width: 150px;
+    height: 150px;
+  }
+  
+  #X2 {
+    background-image: url("Images/Xbtn.png");
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  
+  #PopUp1 {
+    background-image: url("Images/Filescrn2.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    top: -40px;
+    left: 100px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+  }
+  #PopUp2 {
+    background-image: url("Images/Filescrn2.png");
+     background-repeat: no-repeat;
+    background-position: top left;
+    top: 60px;
+    left: 100px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+  }
+  .File{
+    position: absolute;
+    top: 90px; 
+    right: -200px;
+    width: 195px;
+    height: 195px;
+  }
+  .File2{
+    position: absolute;
+    top: 90px; 
+    right: -350px;
+    width: 195px;
+    height: 195px;
+  }
+  .File3{
+     position: absolute;
+     top: 210px; 
+    right: -200px;
+    width: 195px;
+    height: 195px;
+  }
+  .black-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+  }

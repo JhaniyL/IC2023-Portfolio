@@ -139,10 +139,10 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 600px; 
-    width: 1000px; 
+    height: 750px; 
+    width: 1250px; 
     position: fixed;
-    top: 50%;
+    top: 350px;
     left: 50%;
     transform: translate(-50%, -50%);
    
@@ -150,20 +150,79 @@ p {
 
 .planet img {
     height: 100%; 
-    width: 90%;
+    width: 100%;
 }
-/*
+
+@-webkit-keyframes slide-bottom {
+    0% { -webkit-transform: translateY(0); transform: translateY(0); }
+    50% { -webkit-transform: translateY(100px); transform: translateY(100px); }
+    100% { -webkit-transform: translateY(0); transform: translateY(0); }
+  }
+  
+  @keyframes slide-bottom {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(100px); }
+    100% { transform: translateY(0); }
+  }
+  
 .slide-bottom {
-	-webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both ;
+	-webkit-animation: slide-bottom 2.50s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-bottom 2.50s cubic-bezier(0.250, 0.460, 0.450, 0.940) both infinite;
 }
 
+/*
 
-
-  @-webkit-keyframes slide-bottom{0%{-webkit-transform:translateY(0);transform:translateY(0)}100%{-webkit-transform:translateY(100px);transform:translateY(100px)}} */
+  @-webkit-keyframes slide-bottom{0%{-webkit-transform:translateY(0);transform:translateY(0)}100%{-webkit-transform:translateY(100px);transform:translateY(100px)}} 
  @keyframes slide-bottom {
     0% {transform:translateY(0)}
     100% {transform:translateY(100px)}
     0% {transform:translateY(0)}
 }
+
 /*
+
+
+
+.waviy {
+  position: relative;
+  font-size: 100px;
+ 
+}
+
+.waviy span {
+  font-family: "press Start 2P";
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+}
+
+@keyframes waviy {
+  0%, 40%, 100% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes flip {
+  0%, 80% {
+    transform: rotateY(360deg);
+  }
+}
+
+.waviy .flip {
+  position: relative;
+}
+
+.waviy .flip span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(.2s * var(--i));
+}
