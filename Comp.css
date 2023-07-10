@@ -119,8 +119,8 @@ html {
 .Me {
     position: absolute;
     bottom: 10px;
-    right: calc(100% + -10px);
-    height: 280px;
+    right: calc(100% + 20px);
+    height: 315px;
     width: 100px;
   }
 
