@@ -148,14 +148,14 @@ body {
       width: 0;
     }
     to {
-      width: 100%; /* Adjust the width as desired */
+      width: 100%; 
   }
    }
   
   .textBox {
     height: 80px;
     display: inline-block;
-    width: 800px; /* Adjust the width as desired */
+    width: 800px; 
     position: relative;
     border: 6px solid #FFD148;
     background-color: #270745;

@@ -43,7 +43,7 @@ html {
   }
   
   #X {
-    background-image: url("Images/Xbtn.png");
+   
     background-repeat: no-repeat;
     top: -40px;
     left: 100px;
@@ -52,7 +52,7 @@ html {
   }
   
   #X2 {
-    background-image: url("Images/Xbtn.png");
+   
     background-repeat: no-repeat;
     width: 15px;
     height: 15px;
@@ -102,6 +102,54 @@ html {
     right: -200px;
     width: 195px;
     height: 195px;
+  }
+  p {
+    color:  #FFD148;
+    position: relative;
+    height: auto;
+    font-family: "Press Start 2P";
+}
+   
+  .Textbox-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: "press Start 2P";
+    font-size: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  .typeWriter {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    text-align: right;
+    animation: typing 4s forwards;
+    animation-timing-function: steps(40, end);
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  .textBox {
+
+    height: 100px;
+    display: inline-block;
+    max-width: 900px;
+    background-color: rgba(50, 42, 168, 0.7);
+    position: relative;
+    border: 6px solid #FFD148;
+    background-color: #270745;
   }
   .black-bar {
     position: fixed;

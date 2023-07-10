@@ -139,8 +139,8 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 750px; 
-    width: 1250px; 
+    height: 790px; 
+    width: 1280px; 
     position: fixed;
     top: 350px;
     left: 50%;
@@ -166,8 +166,8 @@ p {
   }
   
 .slide-bottom {
-	-webkit-animation: slide-bottom 2.50s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-bottom 2.50s cubic-bezier(0.250, 0.460, 0.450, 0.940) both infinite;
+	-webkit-animation: slide-bottom 3.95s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-bottom 3.95s cubic-bezier(0.250, 0.460, 0.450, 0.940) both infinite;
 }
 
 /*
