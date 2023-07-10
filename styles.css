@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding:0;
     overflow: hidden;
-    cursor: url("pixelated-cursor-arrow-hi.png"), default;
+    cursor: url("Images\PixelCursor2.png"), pointer;
 
    
 }
@@ -49,7 +49,12 @@ button{
     
 }
  
-
+/*.fade-in-image { animation: fadeIn 10s; }
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+*/
 .mainPage{
     
     height: 100vh;
@@ -89,7 +94,6 @@ p {
     align-items: flex-end;
     font-family: "press Start 2P";
     font-size: 15px;
-  
     position: fixed;
     bottom: 0;
     left: 0;
@@ -166,22 +170,9 @@ p {
   }
   
 .slide-bottom {
-	-webkit-animation: slide-bottom 3.95s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-bottom 3.95s cubic-bezier(0.250, 0.460, 0.450, 0.940) both infinite;
+	-webkit-animation: slide-bottom 3.35s cubic-bezier(0.250, 0.460, 0.450, 0.940) both infinite;
+	        animation: slide-bottom 3.35s cubic-bezier(0.250, 0.460, 0.450, 0.940) both infinite;
 }
-
-/*
-
-  @-webkit-keyframes slide-bottom{0%{-webkit-transform:translateY(0);transform:translateY(0)}100%{-webkit-transform:translateY(100px);transform:translateY(100px)}} 
- @keyframes slide-bottom {
-    0% {transform:translateY(0)}
-    100% {transform:translateY(100px)}
-    0% {transform:translateY(0)}
-}
-
-/*
-
-
 
 .waviy {
   position: relative;

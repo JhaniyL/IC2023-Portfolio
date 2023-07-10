@@ -33,6 +33,13 @@ html {
     top: 2px;
     left: 200px;
   }
+  /*
+  .fade-in-image { animation: fadeIn 8s; }
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+*/
   #X,
   #X2 {
     background-color: transparent;
@@ -109,7 +116,14 @@ html {
     height: auto;
     font-family: "Press Start 2P";
 }
-   
+.Me {
+    position: absolute;
+    bottom: 10px;
+    right: calc(100% + -10px);
+    height: 280px;
+    width: 100px;
+  }
+
   .Textbox-container{
     display: flex;
     justify-content: center;
@@ -145,12 +159,12 @@ html {
 
     height: 100px;
     display: inline-block;
-    max-width: 900px;
-    background-color: rgba(50, 42, 168, 0.7);
+    max-width: 1000px;
     position: relative;
     border: 6px solid #FFD148;
     background-color: #270745;
   }
+ 
   .black-bar {
     position: fixed;
     bottom: 0;
