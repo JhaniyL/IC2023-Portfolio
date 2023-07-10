@@ -1,4 +1,5 @@
 
+
 let start = document.querySelector(".startButton");
 let exitButton = document.querySelector(".exitButton");
 let mainPage = document.querySelector(".mainPage");
@@ -13,10 +14,9 @@ let loadingScrn = document.querySelector("#loadingScrn");
     setTimeout(function() {
         loadingScrn.style.display = "none"; 
         mainPage.style.display = "block"; 
-    }, 3000); 
+    }, 3200); 
 };
 
-  
   function togglePopUp(popUpId) {
     var x = document.getElementById(popUpId);
     if (x.style.display === "none") {

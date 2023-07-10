@@ -56,6 +56,7 @@ button{
 }
 */
 #loadingScrn {
+   
     display: none;
     background-color: #270745;
     justify-content: center;
@@ -191,6 +192,8 @@ p {
 }
 
 .waviy span {
+    top: 200px;
+    left: 50px;
   font-family: "press Start 2P";
   position: relative;
   display: inline-block;
