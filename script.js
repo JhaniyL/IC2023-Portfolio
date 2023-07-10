@@ -14,7 +14,7 @@ let loadingScrn = document.querySelector("#loadingScrn");
     setTimeout(function() {
         loadingScrn.style.display = "none"; 
         mainPage.style.display = "block"; 
-    }, 3200); 
+    }, 3000); 
 };
 
   function togglePopUp(popUpId) {
