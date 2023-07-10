@@ -49,12 +49,12 @@ button{
     
 }
  
-/*.fade-in-image { animation: fadeIn 10s; }
+.fade-in-image { animation: fadeIn 12s; }
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
-*/
+
 .mainPage{
     
     height: 100vh;
