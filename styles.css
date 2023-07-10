@@ -49,12 +49,22 @@ button{
     
 }
  
-.fade-in-image { animation: fadeIn 12s; }
+/*.fade-in-image { animation: fadeIn 8s; }
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
+*/
+#loadingScrn {
+    display: none;
+    background-color: #270745;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex; 
+    flex-direction: column; 
 
+}
 .mainPage{
     
     height: 100vh;
